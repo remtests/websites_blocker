@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Bloqueur de Sites",
+  "version": "1.0",
+  "description": "Bloque les sites d'une liste avec toggle.",
+  "permissions": ["storage", "declarativeNetRequest"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "options_page": "options.html"
+}
